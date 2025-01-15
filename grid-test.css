@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+        "a b b b c"
+        "d e e e f"
+        "d e e e f"
+        "d e e e f"
+        "d g g g f";
+}
+.logo {
+    grid-area: a;
+}
+.header {
+    grid-area: b;
+}
+.nav {
+    grid-area: c;
+}
+.content {
+    grid-area: e;
+}
+.footer {
+    grid-area: g;
+}
